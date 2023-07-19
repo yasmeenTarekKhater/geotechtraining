@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(228, 222, 222);
+}
+.my-title{
+    background-color: rgb(4, 109, 150);
+    color: white;
+}
+.sub-title{
+    text-align: right;
+}
+.left-side,.right-side,.info-items{
+    background-color: rgba(255, 255, 255, 0.747);
+    border-radius: 14px;
+    padding: 5px 14px;
+    border: 1px solid gray;
+}
+.left-side-top{
+    text-align: right;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.479);
+}
+.options table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.options table td{
+    transition: .5s;
+    cursor: pointer;
+    padding: 10px 7px;
+    border: 2px solid rgba(128, 128, 128, 0.479);
+}
+.options table td:hover{
+    background-color: rgba(4, 109, 150, 0.692);
+    color: white;
+}
+.options table td .options-icon{
+    font-size: 35px;
+}
+.right-side{
+    height: 320px;
+}
+.right-side-top{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.479);
+}
+.sec-two{
+    height: 150px;
+}

@@ -1,38 +1,224 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    /* background: url("/public/caroil.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden; */
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.points-task{
+  margin: 170px  auto;
+  background-color: rgba(4, 50, 95, 0.795);
+  text-align: center;
+  height: 450px;
+  margin-top: 30px;
+  border-radius: 20px;
+  padding: 30px;
+}
+.myform{
+  color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.points-task h2{
+  cursor: pointer;
+}
+.my-item{
+  position: relative;
+}
+.Icon_{
+  position: absolute;
+  right: 35px;
+  top: 20%;
+  cursor: pointer;
+  z-index: 10;
+}
+.Icon_2{
+  position: absolute;
+  left:10px;
+  top: 30%;
+  cursor: pointer;
+  z-index: 10;
+}
+.car-top{
+  text-align: center;
+  background-color: rgb(0, 105, 105);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 10px 0;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.car-middel{
+  text-align: center;
+  margin-top: 20px;
+}
+.car-middel h4{
+  padding: 30px 0;
+}
+.car-middel img{
+  padding-bottom: 17px;
+}
+.car-bottom{
+  background-color: rgb(0, 105, 105);
+  width: 25%;
+  height: 150px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 25px 0;
+  color: white;
+  border-radius: 20%;
+}
+.car-bottom span{
+  font-size: 20px;
+}
+.my-card {
+  display: inline-block;
+  width: 400px;
+  height: 270px;
+  margin: 1rem;
+  flex: 0.5;
+  text-align: center;
+  background: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px 10px;
+  
+}
+.shimmer-div{
+  background-color:rgb(0, 105, 105) ;
+  min-height: 100vh;
+}
+.shimmer-div h3{
+  margin-top: 20px;
+}
+.shimmer-div img {
+  border-radius: 50%;
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+}
+/* ------------------------------------------------------- */
+.cover {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cover .overlap-wrapper {
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px none;
+  height: 960px;
+  width: 1920px;
+}
+
+.cover .overlap {
+  height: 960px;
+  left: 232px;
+  position: relative;
+  width: 1688px;
+}
+
+.cover .overlap-group {
+  height: 960px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1688px;
+}
+
+.cover .macccbook-pro {
+  height: 960px;
+  left: 342px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1346px;
+}
+
+.cover .vector {
+  height: 7px;
+  left: 1034px;
+  position: absolute;
+  top: 117px;
+  width: 13px;
+}
+
+.cover .e-commerce-web {
+  color: #ffffff;
+  font-family: "Gilroy-Bold", Helvetica;
+  font-size: 105.4px;
+  font-weight: 700;
+  height: 252px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 126.4px;
+  position: absolute;
+  top: 86px;
+}
+
+.cover .frame {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 100px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  left: 0;
+  padding: 32px 80px;
+  position: absolute;
+  top: 727px;
+  width: fit-content;
+}
+
+.cover .text-wrapper {
+  color: #000000;
+  font-family: "Gilroy-Semibold", Helvetica;
+  font-size: 72px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 86.4px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.cover .div {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 17.27px;
+  left: 0;
+  position: absolute;
+  top: 395px;
+  width: fit-content;
+}
+
+.cover .text-wrapper-2 {
+  color: #ffffffe6;
+  font-family: "Gilroy-Semibold", Helvetica;
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 42px;
+  margin-top: -1.08px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.cover .text-wrapper-3 {
+  color: #ffffffe6;
+  font-family: "Gilroy-Semibold", Helvetica;
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
 }
