@@ -46,13 +46,13 @@ const Screen = () => {
                 <div className="reports col-md-4 col-12 py-3">
                   {data.map((i) => {
                     return (
-                      <div className="container text-end">
+                      <div className="container text-end reports-hover">
                         <div className="row justify-content-around">
                           <p className="col-8">{i}</p>
                           <FontAwesomeIcon
                             icon={faFilePdf}
                             style={{ color: "#124759", cursor: "pointer" }}
-                            className="col-1"
+                            className="col-1 mt-1"
                           />
                         </div>
                       </div>
