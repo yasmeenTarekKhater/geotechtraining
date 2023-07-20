@@ -62,7 +62,7 @@ const ChartRight = () => {
         },
       };
     return ( <>
-    <Line options={options} data={state} className='my-chart'/>
+    <Line options={options} data={state}/>
     </> );
 }
  

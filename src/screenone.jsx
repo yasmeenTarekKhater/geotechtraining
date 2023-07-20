@@ -152,8 +152,8 @@ const Screen = () => {
                 </div>
               </div>
             </div>
-            <div className="mb-4">
-                <ChartRight />
+            <div className="mychart">
+                <ChartRight/>
             </div>
           </div>
         </div>

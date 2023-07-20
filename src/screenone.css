@@ -38,10 +38,18 @@ body{
 }
 .right-side{
     height: 320px;
+    overflow: hidden;
 }
 .right-side-top{
     border-bottom: 1px solid rgba(128, 128, 128, 0.479);
 }
 .sec-two{
     height: 150px;
+}
+.mychart{
+    margin:20px auto;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
