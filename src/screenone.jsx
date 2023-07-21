@@ -28,7 +28,7 @@ const Screen = () => {
     "تقارير الفواتير",
   ];
   return (
-    <>
+    <div className="big">
       <h3 className="text-center py-3 my-title">اداره النظام</h3>
       <div className="sub-title container py-2">
         <h5 className="d-inline px-3">اداره النظام</h5>
@@ -244,7 +244,8 @@ const Screen = () => {
             </div>
         </div>
       </div>
-    </>
+      <a href="/contactcar">go to contact car page</a>
+    </div>
   );
 };
 

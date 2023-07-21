@@ -10,14 +10,16 @@ import Home from "./home";
 import Shimmer from "./shimmereffect";
 import Figma from "./figma";
 import Screen from "./screenone";
+import ContactCar from "./contactcarspage";
 
 function App() {
   return (
     <>
     <BrowserRouter>
-    <Screen/>
-    {/* <Route component={Form} path="/" exact></Route>
-    <Route component={Home} path="/home"></Route>
+    <Route component={Screen} path="/" exact></Route>
+    <Route component={ContactCar} path="/contactcar"></Route>
+    {/* <Route component={Form} path="/" exact></Route> */}
+    {/* <Route component={Home} path="/home"></Route>
     <Route component={Shimmer} path="/shimmer"></Route>
     <Route component={Figma} path="/figma"></Route> */}
     </BrowserRouter>
