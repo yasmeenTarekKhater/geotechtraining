@@ -159,11 +159,35 @@
     margin: 10px auto 100px;
 }
 .my-form input{
- 
+ padding-left: 100px;
 }
 .my-form .form-search-icon{
     color: gray;
     position: absolute;
     left: 4%;
     top: 30%;
+}
+.car_item{
+    border: 1px solid gray;
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+}
+.car_item:hover,.change:hover{
+    background-color:rgba(255, 123, 0, 0.623);
+}
+.car_item:hover h3,.change:hover h3{
+    color: white;
+}
+.car_item img,.change img{
+    width: 70px;
+    height: 50px;
+}
+.change{
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    border: 2px solid rgba(255, 123, 0, 0.993);
 }

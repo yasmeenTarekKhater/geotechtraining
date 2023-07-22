@@ -23,6 +23,7 @@ import {
   faSearch,
 } from "@fortawesome/free-solid-svg-icons";
 import "./contactcarpage.css"
+import CarSearchType from './cartypesearch';
 
 const ContactCar = () => {
     const [showBasic, setShowBasic] = useState(false);
@@ -298,10 +299,7 @@ const ContactCar = () => {
       <button className='btn m-auto px-5'> <span>أبدا بحث مفصل </span>فى عربيات للبيع </button>
       <img src="/search.png"alt="search icon"/>
       </div>
-      <form className='my-form'>
-        <FontAwesomeIcon icon={faSearch} className='form-search-icon'></FontAwesomeIcon>
-        <input type="text" placeholder='ابحث بأسم الشركه' className='text-end  mt-4 form-control px-5'/>
-      </form>
+      <CarSearchType/>
     </div>
     </> );
 }
