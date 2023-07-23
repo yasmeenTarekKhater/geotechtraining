@@ -11,6 +11,7 @@ import Shimmer from "./shimmereffect";
 import Figma from "./figma";
 import Screen from "./screenone";
 import ContactCar from "./contactcarspage";
+import Qrcode from "./qrcode";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     <BrowserRouter>
     <Route component={Screen} path="/" exact></Route>
     <Route component={ContactCar} path="/contactcar"></Route>
+    <Route component={Qrcode} path="/qrcode"></Route>
     {/* <Route component={Form} path="/" exact></Route> */}
     {/* <Route component={Home} path="/home"></Route>
     <Route component={Shimmer} path="/shimmer"></Route>

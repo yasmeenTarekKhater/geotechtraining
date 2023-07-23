@@ -244,7 +244,8 @@ const Screen = () => {
             </div>
         </div>
       </div>
-      <a href="/contactcar">go to contact car page</a>
+      <a href="/contactcar" className="me-4">go to contact car page</a>
+      <a href="/qrcode">go to qr code page</a>
     </div>
   );
 };
